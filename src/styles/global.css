@@ -2,14 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-body{
-overflow: hidden;
+body {
+  overflow: hidden;
 }
-  
-
-  
 
 .App-main {
   width: 100%;
@@ -23,9 +19,13 @@ overflow: hidden;
   background-color: black;
   padding-top: 66px;
   padding-bottom: 66px;
- 
-
-
+}
+@media (max-width: 390px) {
+  .App-main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 .todoListOuter {
   height: 612px;
@@ -37,16 +37,21 @@ overflow: hidden;
   margin: 0 auto;
   overflow-y: auto;
 }
-
-::-webkit-scrollbar{
+@media (max-width: 390px) {
+  .todoListOuter {
+    width: auto;
+    
+   
+  }
+}
+::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: none;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: gray;
   border-radius: 20px;
 }
-

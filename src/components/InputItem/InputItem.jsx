@@ -5,6 +5,7 @@ function InputItem() {
   const { getInputDataHandler, addTodoHandler ,inputData} = useContext(DataContext);
   return (
     <div className="newtodo">
+        <p>Todo List</p>
       <div className="input-text">
       <input type="text" onChange={getInputDataHandler} value={inputData} />
       <button onClick={addTodoHandler}>Add</button>

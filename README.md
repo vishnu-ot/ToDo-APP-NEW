@@ -1,8 +1,16 @@
-# React + Vite
+#Todo APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is basic todo app project . We have implemented functionalities like  
+ -> Add new Todo
+-> Delete Todo
+-> Updte Todo
+-> Mark as completed
 
-Currently, two official plugins are available:
+Also implemeted the concept of useContext to state management.
+Data is stored in local storage of browser . So data wont be get removed if refresh the browser .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Live Link :
+
+https://to-do-app-new-two.vercel.app/
+
+![Alt text](<Screenshot from 2023-10-03 23-39-11.png>)
